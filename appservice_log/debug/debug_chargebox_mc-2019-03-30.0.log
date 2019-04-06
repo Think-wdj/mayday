@@ -1,0 +1,394 @@
+2019-03-30 11:45:05.308 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:05.383 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@115eb3e5]
+2019-03-30 11:45:05.391 [http-nio-8091-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:05.396 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:45:05.405 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:45:05.468 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:45:05.471 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@115eb3e5]
+2019-03-30 11:45:05.471 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@115eb3e5]
+2019-03-30 11:45:05.473 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@115eb3e5]
+2019-03-30 11:45:05.474 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@115eb3e5]
+2019-03-30 11:45:05.484 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:05.485 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ede8dee]
+2019-03-30 11:45:05.489 [http-nio-8091-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:05.489 [http-nio-8091-exec-6] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==>  Preparing: select * from mayday_user where user_name=? and user_pwd=? 
+2019-03-30 11:45:05.490 [http-nio-8091-exec-6] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==> Parameters: wudongjun0403@gmail.com(String), f9a344f7000f8f137fe3ba7338ce45ac(String)
+2019-03-30 11:45:05.500 [http-nio-8091-exec-6] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - <==      Total: 0
+2019-03-30 11:45:05.501 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ede8dee]
+2019-03-30 11:45:05.502 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ede8dee]
+2019-03-30 11:45:05.502 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ede8dee]
+2019-03-30 11:45:05.503 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ede8dee]
+2019-03-30 11:45:05.508 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:05.508 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f7df01d]
+2019-03-30 11:45:05.514 [http-nio-8091-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:05.514 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_last_time = ? where user_id = ? 
+2019-03-30 11:45:05.518 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: 2019-03-30 11:45:05.505(Timestamp), 9(Integer)
+2019-03-30 11:45:05.529 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:45:05.530 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f7df01d]
+2019-03-30 11:45:05.530 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f7df01d]
+2019-03-30 11:45:05.530 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f7df01d]
+2019-03-30 11:45:05.530 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f7df01d]
+2019-03-30 11:45:05.548 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:05.548 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6334c153]
+2019-03-30 11:45:05.548 [http-nio-8091-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:05.549 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:45:05.549 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:45:05.553 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:45:05.553 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6334c153]
+2019-03-30 11:45:05.556 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6334c153] from current transaction
+2019-03-30 11:45:05.557 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_enable = ?, login_error = ?, login_last_time = ?, user_display_name = ?, user_email = ?, user_name = ?, user_pwd = ? where user_id = ? 
+2019-03-30 11:45:05.557 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: false(String), 1(Integer), 2019-03-30 11:45:06.0(Timestamp), 颜值爆表的怪蜀黍(String), wudongjun0403@gmail.com(String), TWLY_H(String), f9a344f7000f8f137fe3ba7338ce45ac(String), 9(Integer)
+2019-03-30 11:45:05.560 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:45:05.560 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6334c153]
+2019-03-30 11:45:05.561 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6334c153]
+2019-03-30 11:45:05.561 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6334c153]
+2019-03-30 11:45:05.561 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6334c153]
+2019-03-30 11:45:05.573 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:05.573 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26c1e856]
+2019-03-30 11:45:05.574 [http-nio-8091-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:05.575 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:45:05.575 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:45:05.577 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:45:05.577 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26c1e856]
+2019-03-30 11:45:05.577 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26c1e856] from current transaction
+2019-03-30 11:45:05.577 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_enable = ?, login_error = ?, login_last_time = ?, user_display_name = ?, user_email = ?, user_name = ?, user_pwd = ? where user_id = ? 
+2019-03-30 11:45:05.578 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: false(String), 1(Integer), 2019-03-30 11:45:06.0(Timestamp), 颜值爆表的怪蜀黍(String), wudongjun0403@gmail.com(String), TWLY_H(String), f9a344f7000f8f137fe3ba7338ce45ac(String), 9(Integer)
+2019-03-30 11:45:05.580 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:45:05.581 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26c1e856]
+2019-03-30 11:45:05.581 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26c1e856]
+2019-03-30 11:45:05.581 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26c1e856]
+2019-03-30 11:45:05.581 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26c1e856]
+2019-03-30 11:45:05.601 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:05.601 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad50384]
+2019-03-30 11:45:05.601 [http-nio-8091-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:05.602 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==>  Preparing: insert into mayday_logs (log_id, log_title, log_content, log_ip, log_date) values (?, ?, ?, ?, ?) 
+2019-03-30 11:45:05.602 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==> Parameters: null, 登录后台(String), 登录失败(String), 0:0:0:0:0:0:0:1(String), 2019-03-30 11:45:05.596(Timestamp)
+2019-03-30 11:45:05.615 [http-nio-8091-exec-6] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - <==    Updates: 1
+2019-03-30 11:45:05.615 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad50384]
+2019-03-30 11:45:05.615 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad50384]
+2019-03-30 11:45:05.616 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad50384]
+2019-03-30 11:45:05.616 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ad50384]
+2019-03-30 11:45:14.510 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:14.515 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28845e18]
+2019-03-30 11:45:14.515 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:14.515 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:45:14.515 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:45:14.523 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:45:14.523 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28845e18]
+2019-03-30 11:45:14.523 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28845e18]
+2019-03-30 11:45:14.523 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28845e18]
+2019-03-30 11:45:14.523 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28845e18]
+2019-03-30 11:45:14.526 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:14.527 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35a2162]
+2019-03-30 11:45:14.527 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:14.528 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==>  Preparing: select * from mayday_user where user_name=? and user_pwd=? 
+2019-03-30 11:45:14.528 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==> Parameters: wudongjun0403@gmail.com(String), e2519144a19b463f8cac462bec08453a(String)
+2019-03-30 11:45:14.529 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - <==      Total: 0
+2019-03-30 11:45:14.529 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35a2162]
+2019-03-30 11:45:14.529 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35a2162]
+2019-03-30 11:45:14.529 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35a2162]
+2019-03-30 11:45:14.529 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35a2162]
+2019-03-30 11:45:14.531 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:14.532 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3539c728]
+2019-03-30 11:45:14.535 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:14.535 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_last_time = ? where user_id = ? 
+2019-03-30 11:45:14.536 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: 2019-03-30 11:45:14.531(Timestamp), 9(Integer)
+2019-03-30 11:45:14.537 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:45:14.537 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3539c728]
+2019-03-30 11:45:14.538 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3539c728]
+2019-03-30 11:45:14.539 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3539c728]
+2019-03-30 11:45:14.539 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3539c728]
+2019-03-30 11:45:14.550 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:14.550 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2153f3]
+2019-03-30 11:45:14.550 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:14.550 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:45:14.550 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:45:14.552 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:45:14.552 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2153f3]
+2019-03-30 11:45:14.552 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2153f3] from current transaction
+2019-03-30 11:45:14.553 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_enable = ?, login_error = ?, login_last_time = ?, user_display_name = ?, user_email = ?, user_name = ?, user_pwd = ? where user_id = ? 
+2019-03-30 11:45:14.553 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: false(String), 2(Integer), 2019-03-30 11:45:15.0(Timestamp), 颜值爆表的怪蜀黍(String), wudongjun0403@gmail.com(String), TWLY_H(String), f9a344f7000f8f137fe3ba7338ce45ac(String), 9(Integer)
+2019-03-30 11:45:14.555 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:45:14.555 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2153f3]
+2019-03-30 11:45:14.556 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2153f3]
+2019-03-30 11:45:14.557 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2153f3]
+2019-03-30 11:45:14.557 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d2153f3]
+2019-03-30 11:45:14.573 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:14.573 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b9c2bf]
+2019-03-30 11:45:14.573 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:14.573 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==>  Preparing: insert into mayday_logs (log_id, log_title, log_content, log_ip, log_date) values (?, ?, ?, ?, ?) 
+2019-03-30 11:45:14.574 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==> Parameters: null, 登录后台(String), 登录失败(String), 0:0:0:0:0:0:0:1(String), 2019-03-30 11:45:14.572(Timestamp)
+2019-03-30 11:45:14.576 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - <==    Updates: 1
+2019-03-30 11:45:14.576 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b9c2bf]
+2019-03-30 11:45:14.576 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b9c2bf]
+2019-03-30 11:45:14.576 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b9c2bf]
+2019-03-30 11:45:14.576 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b9c2bf]
+2019-03-30 11:45:23.981 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:23.986 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63d7483b]
+2019-03-30 11:45:23.986 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:23.987 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:45:23.989 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:45:23.994 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:45:23.994 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63d7483b]
+2019-03-30 11:45:23.994 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63d7483b]
+2019-03-30 11:45:23.994 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63d7483b]
+2019-03-30 11:45:23.994 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63d7483b]
+2019-03-30 11:45:23.996 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:23.996 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@397e395]
+2019-03-30 11:45:23.997 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:23.997 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==>  Preparing: select * from mayday_user where user_name=? and user_pwd=? 
+2019-03-30 11:45:23.997 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==> Parameters: wudongjun0403@gmail.com(String), f9a344f7000f8f137fe3ba7338ce45ac(String)
+2019-03-30 11:45:23.998 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - <==      Total: 0
+2019-03-30 11:45:23.998 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@397e395]
+2019-03-30 11:45:23.998 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@397e395]
+2019-03-30 11:45:23.998 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@397e395]
+2019-03-30 11:45:23.999 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@397e395]
+2019-03-30 11:45:24.000 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:24.001 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@279bdaa2]
+2019-03-30 11:45:24.001 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:24.001 [http-nio-8091-exec-8] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_last_time = ? where user_id = ? 
+2019-03-30 11:45:24.004 [http-nio-8091-exec-8] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: 2019-03-30 11:45:24.0(Timestamp), 9(Integer)
+2019-03-30 11:45:24.008 [http-nio-8091-exec-8] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:45:24.008 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@279bdaa2]
+2019-03-30 11:45:24.008 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@279bdaa2]
+2019-03-30 11:45:24.008 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@279bdaa2]
+2019-03-30 11:45:24.008 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@279bdaa2]
+2019-03-30 11:45:24.021 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:24.021 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65ff1add]
+2019-03-30 11:45:24.022 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:24.022 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:45:24.022 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:45:24.024 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:45:24.025 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65ff1add]
+2019-03-30 11:45:24.025 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65ff1add] from current transaction
+2019-03-30 11:45:24.029 [http-nio-8091-exec-8] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_enable = ?, login_error = ?, login_last_time = ?, user_display_name = ?, user_email = ?, user_name = ?, user_pwd = ? where user_id = ? 
+2019-03-30 11:45:24.030 [http-nio-8091-exec-8] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: false(String), 3(Integer), 2019-03-30 11:45:24.0(Timestamp), 颜值爆表的怪蜀黍(String), wudongjun0403@gmail.com(String), TWLY_H(String), f9a344f7000f8f137fe3ba7338ce45ac(String), 9(Integer)
+2019-03-30 11:45:24.034 [http-nio-8091-exec-8] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:45:24.034 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65ff1add]
+2019-03-30 11:45:24.034 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65ff1add]
+2019-03-30 11:45:24.034 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65ff1add]
+2019-03-30 11:45:24.034 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65ff1add]
+2019-03-30 11:45:24.045 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:45:24.045 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28d72a34]
+2019-03-30 11:45:24.046 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:45:24.046 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==>  Preparing: insert into mayday_logs (log_id, log_title, log_content, log_ip, log_date) values (?, ?, ?, ?, ?) 
+2019-03-30 11:45:24.046 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==> Parameters: null, 登录后台(String), 登录失败(String), 0:0:0:0:0:0:0:1(String), 2019-03-30 11:45:24.045(Timestamp)
+2019-03-30 11:45:24.047 [http-nio-8091-exec-8] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - <==    Updates: 1
+2019-03-30 11:45:24.048 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28d72a34]
+2019-03-30 11:45:24.049 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28d72a34]
+2019-03-30 11:45:24.049 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28d72a34]
+2019-03-30 11:45:24.049 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28d72a34]
+2019-03-30 11:51:17.668 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:17.677 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35294e3f]
+2019-03-30 11:51:17.678 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:17.678 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:51:17.678 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:51:17.694 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:51:17.694 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35294e3f]
+2019-03-30 11:51:17.697 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35294e3f]
+2019-03-30 11:51:17.698 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35294e3f]
+2019-03-30 11:51:17.698 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35294e3f]
+2019-03-30 11:51:17.701 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:17.701 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c156ae4]
+2019-03-30 11:51:17.701 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:17.702 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==>  Preparing: select * from mayday_user where user_name=? and user_pwd=? 
+2019-03-30 11:51:17.702 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==> Parameters: wudongjun0403@gmail.com(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-03-30 11:51:17.703 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - <==      Total: 0
+2019-03-30 11:51:17.704 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c156ae4]
+2019-03-30 11:51:17.704 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c156ae4]
+2019-03-30 11:51:17.704 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c156ae4]
+2019-03-30 11:51:17.704 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c156ae4]
+2019-03-30 11:51:17.705 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:17.706 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38dda0c1]
+2019-03-30 11:51:17.707 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:17.707 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_last_time = ? where user_id = ? 
+2019-03-30 11:51:17.710 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: 2019-03-30 11:51:17.705(Timestamp), 9(Integer)
+2019-03-30 11:51:17.714 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:51:17.714 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38dda0c1]
+2019-03-30 11:51:17.715 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38dda0c1]
+2019-03-30 11:51:17.716 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38dda0c1]
+2019-03-30 11:51:17.716 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38dda0c1]
+2019-03-30 11:51:17.723 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:17.723 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a44cce]
+2019-03-30 11:51:17.723 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:17.723 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:51:17.723 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:51:17.725 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:51:17.725 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a44cce]
+2019-03-30 11:51:17.725 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a44cce] from current transaction
+2019-03-30 11:51:17.744 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_enable = ?, login_error = ?, login_last_time = ?, user_display_name = ?, user_email = ?, user_name = ?, user_pwd = ? where user_id = ? 
+2019-03-30 11:51:17.765 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: false(String), 4(Integer), 2019-03-30 11:51:18.0(Timestamp), 颜值爆表的怪蜀黍(String), wudongjun0403@gmail.com(String), TWLY_H(String), e10adc3949ba59abbe56e057f20f883e(String), 9(Integer)
+2019-03-30 11:51:17.767 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:51:17.767 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a44cce]
+2019-03-30 11:51:17.767 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a44cce]
+2019-03-30 11:51:17.767 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a44cce]
+2019-03-30 11:51:17.767 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a44cce]
+2019-03-30 11:51:17.779 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:17.779 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d271beb]
+2019-03-30 11:51:17.803 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:17.803 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==>  Preparing: insert into mayday_logs (log_id, log_title, log_content, log_ip, log_date) values (?, ?, ?, ?, ?) 
+2019-03-30 11:51:17.814 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==> Parameters: null, 登录后台(String), 登录失败(String), 0:0:0:0:0:0:0:1(String), 2019-03-30 11:51:17.778(Timestamp)
+2019-03-30 11:51:17.817 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - <==    Updates: 1
+2019-03-30 11:51:17.817 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d271beb]
+2019-03-30 11:51:17.817 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d271beb]
+2019-03-30 11:51:17.817 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d271beb]
+2019-03-30 11:51:17.817 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d271beb]
+2019-03-30 11:51:43.569 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:43.571 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3af7f1dd]
+2019-03-30 11:51:43.571 [http-nio-8091-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:43.572 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:51:43.572 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:51:43.575 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:51:43.575 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3af7f1dd]
+2019-03-30 11:51:43.576 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3af7f1dd]
+2019-03-30 11:51:43.576 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3af7f1dd]
+2019-03-30 11:51:43.576 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3af7f1dd]
+2019-03-30 11:51:43.577 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:43.578 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56644bdd]
+2019-03-30 11:51:43.578 [http-nio-8091-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:43.578 [http-nio-8091-exec-2] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==>  Preparing: select * from mayday_user where user_name=? and user_pwd=? 
+2019-03-30 11:51:43.578 [http-nio-8091-exec-2] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==> Parameters: TWLY_h(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-03-30 11:51:43.580 [http-nio-8091-exec-2] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - <==      Total: 1
+2019-03-30 11:51:43.580 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56644bdd]
+2019-03-30 11:51:43.580 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56644bdd]
+2019-03-30 11:51:43.580 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56644bdd]
+2019-03-30 11:51:43.580 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56644bdd]
+2019-03-30 11:51:43.582 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:43.582 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b69171e]
+2019-03-30 11:51:43.584 [http-nio-8091-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:43.584 [http-nio-8091-exec-2] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_last_time = ? where user_id = ? 
+2019-03-30 11:51:43.584 [http-nio-8091-exec-2] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: 2019-03-30 11:51:43.581(Timestamp), 9(Integer)
+2019-03-30 11:51:43.585 [http-nio-8091-exec-2] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:51:43.586 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b69171e]
+2019-03-30 11:51:43.586 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b69171e]
+2019-03-30 11:51:43.586 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b69171e]
+2019-03-30 11:51:43.586 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b69171e]
+2019-03-30 11:51:43.593 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:43.594 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@595036d5]
+2019-03-30 11:51:43.594 [http-nio-8091-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:43.594 [http-nio-8091-exec-2] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_enable = ?, login_error = ?, login_last_time = ? where user_id = ? 
+2019-03-30 11:51:43.595 [http-nio-8091-exec-2] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: false(String), 0(Integer), 2019-03-30 11:51:43.593(Timestamp), 9(Integer)
+2019-03-30 11:51:43.596 [http-nio-8091-exec-2] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 11:51:43.596 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@595036d5]
+2019-03-30 11:51:43.597 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@595036d5]
+2019-03-30 11:51:43.597 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@595036d5]
+2019-03-30 11:51:43.597 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@595036d5]
+2019-03-30 11:51:43.606 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:43.606 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72f9511c]
+2019-03-30 11:51:43.606 [http-nio-8091-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:43.606 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==>  Preparing: insert into mayday_logs (log_id, log_title, log_content, log_ip, log_date) values (?, ?, ?, ?, ?) 
+2019-03-30 11:51:43.607 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==> Parameters: null, 登录后台(String), 登录成功(String), 0:0:0:0:0:0:0:1(String), 2019-03-30 11:51:43.605(Timestamp)
+2019-03-30 11:51:43.611 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - <==    Updates: 1
+2019-03-30 11:51:43.611 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72f9511c]
+2019-03-30 11:51:43.611 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72f9511c]
+2019-03-30 11:51:43.611 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72f9511c]
+2019-03-30 11:51:43.611 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72f9511c]
+2019-03-30 11:51:45.124 [http-nio-8091-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:45.126 [http-nio-8091-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b650eb7]
+2019-03-30 11:51:45.133 [http-nio-8091-exec-3] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.6
+2019-03-30 11:51:45.152 [http-nio-8091-exec-3] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:45.153 [http-nio-8091-exec-3] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - ==>  Preparing: SELECT count(0) FROM mayday_logs 
+2019-03-30 11:51:45.153 [http-nio-8091-exec-3] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - ==> Parameters: 
+2019-03-30 11:51:45.160 [http-nio-8091-exec-3] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - <==      Total: 1
+2019-03-30 11:51:45.161 [http-nio-8091-exec-3] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, log_id, log_title, log_content, log_ip, log_date from mayday_logs order by log_id DESC LIMIT ? 
+2019-03-30 11:51:45.161 [http-nio-8091-exec-3] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - ==> Parameters: 5(Integer)
+2019-03-30 11:51:45.162 [http-nio-8091-exec-3] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - <==      Total: 5
+2019-03-30 11:51:45.163 [http-nio-8091-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b650eb7]
+2019-03-30 11:51:45.163 [http-nio-8091-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b650eb7]
+2019-03-30 11:51:45.163 [http-nio-8091-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b650eb7]
+2019-03-30 11:51:45.163 [http-nio-8091-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b650eb7]
+2019-03-30 11:51:57.032 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:51:57.037 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bc8a7c0]
+2019-03-30 11:51:57.042 [http-nio-8091-exec-6] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.6363636363636364
+2019-03-30 11:51:57.043 [http-nio-8091-exec-6] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:51:57.045 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - ==>  Preparing: SELECT count(0) FROM mayday_attachment 
+2019-03-30 11:51:57.045 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - ==> Parameters: 
+2019-03-30 11:51:57.059 [http-nio-8091-exec-6] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - <==      Total: 1
+2019-03-30 11:51:57.059 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bc8a7c0]
+2019-03-30 11:51:57.059 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bc8a7c0]
+2019-03-30 11:51:57.059 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bc8a7c0]
+2019-03-30 11:51:57.059 [http-nio-8091-exec-6] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bc8a7c0]
+2019-03-30 11:52:00.112 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 11:52:00.115 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20668de]
+2019-03-30 11:52:00.116 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@6dd51369] will be managed by Spring
+2019-03-30 11:52:00.118 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 11:52:00.119 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 11:52:00.121 [http-nio-8091-exec-1] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 11:52:00.121 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20668de]
+2019-03-30 11:52:00.121 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20668de]
+2019-03-30 11:52:00.121 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20668de]
+2019-03-30 11:52:00.122 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20668de]
+2019-03-30 16:06:09.105 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 16:06:09.111 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@196cfdbe]
+2019-03-30 16:06:09.116 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bab9134] will be managed by Spring
+2019-03-30 16:06:09.123 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-30 16:06:09.127 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-30 16:06:09.182 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-30 16:06:09.182 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@196cfdbe]
+2019-03-30 16:06:09.183 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@196cfdbe]
+2019-03-30 16:06:09.183 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@196cfdbe]
+2019-03-30 16:06:09.187 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@196cfdbe]
+2019-03-30 16:06:09.195 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 16:06:09.195 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a5cbfd]
+2019-03-30 16:06:09.196 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bab9134] will be managed by Spring
+2019-03-30 16:06:09.196 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==>  Preparing: select * from mayday_user where user_name=? and user_pwd=? 
+2019-03-30 16:06:09.196 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==> Parameters: TWLY_H(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-03-30 16:06:09.199 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - <==      Total: 1
+2019-03-30 16:06:09.200 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a5cbfd]
+2019-03-30 16:06:09.200 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a5cbfd]
+2019-03-30 16:06:09.201 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a5cbfd]
+2019-03-30 16:06:09.201 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a5cbfd]
+2019-03-30 16:06:09.205 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 16:06:09.205 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e7f0529]
+2019-03-30 16:06:09.209 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bab9134] will be managed by Spring
+2019-03-30 16:06:09.209 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_last_time = ? where user_id = ? 
+2019-03-30 16:06:09.213 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: 2019-03-30 16:06:09.202(Timestamp), 9(Integer)
+2019-03-30 16:06:09.219 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 16:06:09.219 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e7f0529]
+2019-03-30 16:06:09.219 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e7f0529]
+2019-03-30 16:06:09.219 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e7f0529]
+2019-03-30 16:06:09.219 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e7f0529]
+2019-03-30 16:06:09.231 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 16:06:09.231 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2359a34c]
+2019-03-30 16:06:09.231 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bab9134] will be managed by Spring
+2019-03-30 16:06:09.232 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_enable = ?, login_error = ?, login_last_time = ? where user_id = ? 
+2019-03-30 16:06:09.233 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: false(String), 0(Integer), 2019-03-30 16:06:09.231(Timestamp), 9(Integer)
+2019-03-30 16:06:09.234 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-30 16:06:09.234 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2359a34c]
+2019-03-30 16:06:09.234 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2359a34c]
+2019-03-30 16:06:09.234 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2359a34c]
+2019-03-30 16:06:09.234 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2359a34c]
+2019-03-30 16:06:09.247 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 16:06:09.247 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c7dbd44]
+2019-03-30 16:06:09.248 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bab9134] will be managed by Spring
+2019-03-30 16:06:09.248 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==>  Preparing: insert into mayday_logs (log_id, log_title, log_content, log_ip, log_date) values (?, ?, ?, ?, ?) 
+2019-03-30 16:06:09.249 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==> Parameters: null, 登录后台(String), 登录成功(String), 0:0:0:0:0:0:0:1(String), 2019-03-30 16:06:09.242(Timestamp)
+2019-03-30 16:06:09.254 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - <==    Updates: 1
+2019-03-30 16:06:09.254 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c7dbd44]
+2019-03-30 16:06:09.255 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c7dbd44]
+2019-03-30 16:06:09.255 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c7dbd44]
+2019-03-30 16:06:09.255 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c7dbd44]
+2019-03-30 16:06:10.779 [http-nio-8091-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 16:06:10.783 [http-nio-8091-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f24591e]
+2019-03-30 16:06:10.787 [http-nio-8091-exec-9] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.6666666666666666
+2019-03-30 16:06:10.794 [http-nio-8091-exec-9] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bab9134] will be managed by Spring
+2019-03-30 16:06:10.794 [http-nio-8091-exec-9] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - ==>  Preparing: SELECT count(0) FROM mayday_logs 
+2019-03-30 16:06:10.794 [http-nio-8091-exec-9] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - ==> Parameters: 
+2019-03-30 16:06:10.799 [http-nio-8091-exec-9] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - <==      Total: 1
+2019-03-30 16:06:10.800 [http-nio-8091-exec-9] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, log_id, log_title, log_content, log_ip, log_date from mayday_logs order by log_id DESC LIMIT ? 
+2019-03-30 16:06:10.801 [http-nio-8091-exec-9] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - ==> Parameters: 5(Integer)
+2019-03-30 16:06:10.805 [http-nio-8091-exec-9] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - <==      Total: 5
+2019-03-30 16:06:10.805 [http-nio-8091-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f24591e]
+2019-03-30 16:06:10.805 [http-nio-8091-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f24591e]
+2019-03-30 16:06:10.806 [http-nio-8091-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f24591e]
+2019-03-30 16:06:10.807 [http-nio-8091-exec-9] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f24591e]
+2019-03-30 16:06:35.888 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-30 16:06:35.889 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73467f02]
+2019-03-30 16:06:35.889 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bab9134] will be managed by Spring
+2019-03-30 16:06:35.890 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.ArticleMapperCustom.findByArticleUrl - ==>  Preparing: SELECT ma.*, GROUP_CONCAT(distinct mc.category_name ) AS categorysName, GROUP_CONCAT(distinct mc.category_url ) AS categorysUrl, GROUP_CONCAT(distinct mt.tag_name ) AS tagsName, GROUP_CONCAT(distinct mt.tag_url ) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE article_url=? GROUP BY ma.id 
+2019-03-30 16:06:35.890 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.ArticleMapperCustom.findByArticleUrl - ==> Parameters: mayday(String)
+2019-03-30 16:06:35.927 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.ArticleMapperCustom.findByArticleUrl - <==      Total: 0
+2019-03-30 16:06:35.928 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73467f02]
+2019-03-30 16:06:35.930 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73467f02]
+2019-03-30 16:06:35.930 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73467f02]
+2019-03-30 16:06:35.930 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73467f02]

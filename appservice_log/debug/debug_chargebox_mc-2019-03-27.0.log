@@ -1,0 +1,883 @@
+2019-03-27 19:48:12.281 [restartedMain] DEBUG com.Application - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2019-03-27 19:48:18.978 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\custom\ArticleMapperCustom.class]
+2019-03-27 19:48:18.980 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\custom\CategoryMapperCustom.class]
+2019-03-27 19:48:18.983 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\custom\LinkMapperCustom.class]
+2019-03-27 19:48:18.984 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\custom\LogMapperCustom.class]
+2019-03-27 19:48:18.988 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\custom\OptionsMapperCustom.class]
+2019-03-27 19:48:18.990 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\custom\TagMapperCustom.class]
+2019-03-27 19:48:18.991 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\custom\ThemeMapperCustom.class]
+2019-03-27 19:48:18.992 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\custom\UserMapperCustom.class]
+2019-03-27 19:48:18.994 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\ArticleCategoryMapper.class]
+2019-03-27 19:48:18.995 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\ArticleMapper.class]
+2019-03-27 19:48:18.996 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\ArticleTagMapper.class]
+2019-03-27 19:48:18.997 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\AttachmentMapper.class]
+2019-03-27 19:48:18.998 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\CategoryMapper.class]
+2019-03-27 19:48:19.001 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\LinkMapper.class]
+2019-03-27 19:48:19.004 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\LogMapper.class]
+2019-03-27 19:48:19.005 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\MenuMapper.class]
+2019-03-27 19:48:19.007 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\OptionsMapper.class]
+2019-03-27 19:48:19.008 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\TagMapper.class]
+2019-03-27 19:48:19.009 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\ThemeMapper.class]
+2019-03-27 19:48:19.010 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\com\songhaozhi\mayday\mapper\generator\UserMapper.class]
+2019-03-27 19:48:19.010 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'articleMapperCustom' and 'com.songhaozhi.mayday.mapper.custom.ArticleMapperCustom' mapperInterface
+2019-03-27 19:48:19.011 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'articleMapperCustom'.
+2019-03-27 19:48:19.011 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'categoryMapperCustom' and 'com.songhaozhi.mayday.mapper.custom.CategoryMapperCustom' mapperInterface
+2019-03-27 19:48:19.011 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'categoryMapperCustom'.
+2019-03-27 19:48:19.011 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'linkMapperCustom' and 'com.songhaozhi.mayday.mapper.custom.LinkMapperCustom' mapperInterface
+2019-03-27 19:48:19.011 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'linkMapperCustom'.
+2019-03-27 19:48:19.011 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logMapperCustom' and 'com.songhaozhi.mayday.mapper.custom.LogMapperCustom' mapperInterface
+2019-03-27 19:48:19.011 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logMapperCustom'.
+2019-03-27 19:48:19.012 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionsMapperCustom' and 'com.songhaozhi.mayday.mapper.custom.OptionsMapperCustom' mapperInterface
+2019-03-27 19:48:19.013 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionsMapperCustom'.
+2019-03-27 19:48:19.013 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'tagMapperCustom' and 'com.songhaozhi.mayday.mapper.custom.TagMapperCustom' mapperInterface
+2019-03-27 19:48:19.013 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'tagMapperCustom'.
+2019-03-27 19:48:19.014 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'themeMapperCustom' and 'com.songhaozhi.mayday.mapper.custom.ThemeMapperCustom' mapperInterface
+2019-03-27 19:48:19.014 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'themeMapperCustom'.
+2019-03-27 19:48:19.015 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapperCustom' and 'com.songhaozhi.mayday.mapper.custom.UserMapperCustom' mapperInterface
+2019-03-27 19:48:19.016 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapperCustom'.
+2019-03-27 19:48:19.016 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'articleCategoryMapper' and 'com.songhaozhi.mayday.mapper.generator.ArticleCategoryMapper' mapperInterface
+2019-03-27 19:48:19.016 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'articleCategoryMapper'.
+2019-03-27 19:48:19.016 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'articleMapper' and 'com.songhaozhi.mayday.mapper.generator.ArticleMapper' mapperInterface
+2019-03-27 19:48:19.017 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'articleMapper'.
+2019-03-27 19:48:19.017 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'articleTagMapper' and 'com.songhaozhi.mayday.mapper.generator.ArticleTagMapper' mapperInterface
+2019-03-27 19:48:19.017 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'articleTagMapper'.
+2019-03-27 19:48:19.017 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachmentMapper' and 'com.songhaozhi.mayday.mapper.generator.AttachmentMapper' mapperInterface
+2019-03-27 19:48:19.017 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachmentMapper'.
+2019-03-27 19:48:19.018 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'categoryMapper' and 'com.songhaozhi.mayday.mapper.generator.CategoryMapper' mapperInterface
+2019-03-27 19:48:19.018 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'categoryMapper'.
+2019-03-27 19:48:19.018 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'linkMapper' and 'com.songhaozhi.mayday.mapper.generator.LinkMapper' mapperInterface
+2019-03-27 19:48:19.018 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'linkMapper'.
+2019-03-27 19:48:19.018 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logMapper' and 'com.songhaozhi.mayday.mapper.generator.LogMapper' mapperInterface
+2019-03-27 19:48:19.019 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logMapper'.
+2019-03-27 19:48:19.019 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'menuMapper' and 'com.songhaozhi.mayday.mapper.generator.MenuMapper' mapperInterface
+2019-03-27 19:48:19.019 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'menuMapper'.
+2019-03-27 19:48:19.019 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionsMapper' and 'com.songhaozhi.mayday.mapper.generator.OptionsMapper' mapperInterface
+2019-03-27 19:48:19.019 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionsMapper'.
+2019-03-27 19:48:19.019 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'tagMapper' and 'com.songhaozhi.mayday.mapper.generator.TagMapper' mapperInterface
+2019-03-27 19:48:19.020 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'tagMapper'.
+2019-03-27 19:48:19.020 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'themeMapper' and 'com.songhaozhi.mayday.mapper.generator.ThemeMapper' mapperInterface
+2019-03-27 19:48:19.020 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'themeMapper'.
+2019-03-27 19:48:19.020 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.songhaozhi.mayday.mapper.generator.UserMapper' mapperInterface
+2019-03-27 19:48:19.020 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-03-27 19:48:23.773 [restartedMain] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-03-27 19:48:24.191 [restartedMain] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2019-03-27 19:48:24.240 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Article matches criteria [is assignable to Object]
+2019-03-27 19:48:24.241 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleCategory matches criteria [is assignable to Object]
+2019-03-27 19:48:24.243 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleCategoryExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.244 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleCategoryExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.245 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleCategoryExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.245 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleCategoryExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.246 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleCustom matches criteria [is assignable to Object]
+2019-03-27 19:48:24.247 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.251 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.252 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.252 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.253 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleTag matches criteria [is assignable to Object]
+2019-03-27 19:48:24.253 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleTagExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.255 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleTagExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.255 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleTagExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.256 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ArticleTagExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.257 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Attachment matches criteria [is assignable to Object]
+2019-03-27 19:48:24.258 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.AttachmentExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.261 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.AttachmentExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.261 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.AttachmentExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.261 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.AttachmentExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.262 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Category matches criteria [is assignable to Object]
+2019-03-27 19:48:24.263 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.CategoryExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.264 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.CategoryExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.265 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.CategoryExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.265 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.CategoryExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.266 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Link matches criteria [is assignable to Object]
+2019-03-27 19:48:24.267 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.LinkExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.269 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.LinkExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.270 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.LinkExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.270 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.LinkExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.270 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Log matches criteria [is assignable to Object]
+2019-03-27 19:48:24.271 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.LogExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.273 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.LogExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.274 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.LogExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.275 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.LogExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.275 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Menu matches criteria [is assignable to Object]
+2019-03-27 19:48:24.276 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.MenuExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.459 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.MenuExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.460 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.MenuExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.461 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.MenuExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.461 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Options matches criteria [is assignable to Object]
+2019-03-27 19:48:24.462 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.OptionsExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.463 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.OptionsExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.464 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.OptionsExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.464 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.OptionsExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.465 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Tag matches criteria [is assignable to Object]
+2019-03-27 19:48:24.465 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.TagExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.469 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.TagExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.471 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.TagExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.471 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.TagExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.472 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.Theme matches criteria [is assignable to Object]
+2019-03-27 19:48:24.473 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ThemeExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.476 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ThemeExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.477 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ThemeExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.477 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.ThemeExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.478 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.User matches criteria [is assignable to Object]
+2019-03-27 19:48:24.479 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.UserExample$Criteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.481 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.UserExample$Criterion matches criteria [is assignable to Object]
+2019-03-27 19:48:24.482 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.UserExample$GeneratedCriteria matches criteria [is assignable to Object]
+2019-03-27 19:48:24.483 [restartedMain] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.songhaozhi.mayday.model.domain.UserExample matches criteria [is assignable to Object]
+2019-03-27 19:48:24.485 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.songhaozhi.mayday.model.domain' for aliases
+2019-03-27 19:48:24.904 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\custom\ArticleMapperCustom.xml]'
+2019-03-27 19:48:24.917 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\custom\CategoryMapperCustom.xml]'
+2019-03-27 19:48:24.925 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\custom\LinkMapperCustom.xml]'
+2019-03-27 19:48:24.932 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\custom\LogMapperCustom.xml]'
+2019-03-27 19:48:24.939 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\custom\OptionsMapperCustom.xml]'
+2019-03-27 19:48:24.950 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\custom\TagMapperCustom.xml]'
+2019-03-27 19:48:24.967 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\custom\ThemeMapperCustom.xml]'
+2019-03-27 19:48:24.976 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\custom\UserMapperCustom.xml]'
+2019-03-27 19:48:24.997 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\ArticleCategoryMapper.xml]'
+2019-03-27 19:48:25.020 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\ArticleMapper.xml]'
+2019-03-27 19:48:25.034 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\ArticleTagMapper.xml]'
+2019-03-27 19:48:25.049 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\AttachmentMapper.xml]'
+2019-03-27 19:48:25.062 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\CategoryMapper.xml]'
+2019-03-27 19:48:25.075 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\LinkMapper.xml]'
+2019-03-27 19:48:25.089 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\LogMapper.xml]'
+2019-03-27 19:48:25.103 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\MenuMapper.xml]'
+2019-03-27 19:48:25.119 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\OptionsMapper.xml]'
+2019-03-27 19:48:25.135 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\TagMapper.xml]'
+2019-03-27 19:48:25.148 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\ThemeMapper.xml]'
+2019-03-27 19:48:25.162 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\wudongjun\IntelliJIDEAProjects\mayday\target\classes\mapper\generator\UserMapper.xml]'
+2019-03-27 19:48:25.577 [restartedMain] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-27 19:48:25.577 [restartedMain] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2019-03-27 19:48:25.589 [restartedMain] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2019-03-27 19:48:25.590 [restartedMain] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2019-03-27 19:48:25.590 [restartedMain] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2019-03-27 19:48:25.591 [restartedMain] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2019-03-27 19:48:25.592 [restartedMain] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2019-03-27 19:48:25.592 [restartedMain] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2019-03-27 19:48:25.593 [restartedMain] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2019-03-27 19:48:25.593 [restartedMain] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2019-03-27 19:48:25.593 [restartedMain] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2019-03-27 19:48:25.600 [restartedMain] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2019-03-27 19:48:25.600 [restartedMain] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2019-03-27 19:48:25.601 [restartedMain] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2019-03-27 19:48:25.601 [restartedMain] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2019-03-27 19:48:25.601 [restartedMain] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2019-03-27 19:48:27.838 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:48:27.851 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6190e09c]
+2019-03-27 19:48:27.902 [restartedMain] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:48:27.906 [restartedMain] DEBUG c.s.m.m.generator.OptionsMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, option_name, option_value from mayday_options 
+2019-03-27 19:48:27.926 [restartedMain] DEBUG c.s.m.m.generator.OptionsMapper.selectByExample - ==> Parameters: 
+2019-03-27 19:48:27.980 [restartedMain] DEBUG c.s.m.m.generator.OptionsMapper.selectByExample - <==      Total: 6
+2019-03-27 19:48:27.980 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6190e09c]
+2019-03-27 19:48:27.981 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6190e09c]
+2019-03-27 19:48:27.981 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6190e09c]
+2019-03-27 19:48:27.981 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6190e09c]
+2019-03-27 19:48:28.033 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:48:28.034 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4467013e]
+2019-03-27 19:48:28.039 [restartedMain] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:48:28.040 [restartedMain] DEBUG c.s.m.mapper.generator.MenuMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, menu_id, menu_icon, menu_name, menu_sort, menu_target, menu_url from mayday_menu order by menu_sort 
+2019-03-27 19:48:28.040 [restartedMain] DEBUG c.s.m.mapper.generator.MenuMapper.selectByExample - ==> Parameters: 
+2019-03-27 19:48:28.050 [restartedMain] DEBUG c.s.m.mapper.generator.MenuMapper.selectByExample - <==      Total: 3
+2019-03-27 19:48:28.052 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4467013e]
+2019-03-27 19:48:28.052 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4467013e]
+2019-03-27 19:48:28.052 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4467013e]
+2019-03-27 19:48:28.052 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4467013e]
+2019-03-27 19:48:28.059 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:48:28.059 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@773d3370]
+2019-03-27 19:48:28.069 [restartedMain] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:48:28.070 [restartedMain] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, id, theme_name, theme_describe, theme_img, theme_status, create_time from mayday_theme WHERE ( theme_status = ? ) 
+2019-03-27 19:48:28.071 [restartedMain] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - ==> Parameters: 1(Integer)
+2019-03-27 19:48:28.080 [restartedMain] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - <==      Total: 1
+2019-03-27 19:48:28.080 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@773d3370]
+2019-03-27 19:48:28.080 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@773d3370]
+2019-03-27 19:48:28.081 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@773d3370]
+2019-03-27 19:48:28.081 [restartedMain] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@773d3370]
+2019-03-27 19:48:28.708 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:48:28.708 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e9af998]
+2019-03-27 19:48:28.714 [http-nio-8091-exec-1] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.0
+2019-03-27 19:48:28.796 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:48:28.796 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - ==>  Preparing: SELECT count(0) FROM (SELECT ma.*, GROUP_CONCAT(DISTINCT mc.category_name) AS categorysName, GROUP_CONCAT(DISTINCT mc.category_url) AS categorysUrl, GROUP_CONCAT(DISTINCT mt.tag_name) AS tagsName, GROUP_CONCAT(DISTINCT mt.tag_url) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE 1 = 1 AND article_status = ? AND article_post = ? GROUP BY ma.id) table_count 
+2019-03-27 19:48:28.797 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - ==> Parameters: 0(Integer), post(String)
+2019-03-27 19:48:28.831 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - <==      Total: 1
+2019-03-27 19:48:28.834 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - ==>  Preparing: SELECT ma.*, GROUP_CONCAT(distinct mc.category_name ) AS categorysName, GROUP_CONCAT(distinct mc.category_url ) AS categorysUrl, GROUP_CONCAT(distinct mt.tag_name ) AS tagsName, GROUP_CONCAT(distinct mt.tag_url ) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE 1=1 and article_status=? and article_post=? GROUP BY ma.id ORDER BY article_updatetime DESC,article_newstime DESC LIMIT ? 
+2019-03-27 19:48:28.835 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - ==> Parameters: 0(Integer), post(String), 12(Integer)
+2019-03-27 19:48:28.846 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - <==      Total: 1
+2019-03-27 19:48:28.846 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e9af998]
+2019-03-27 19:48:28.847 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e9af998]
+2019-03-27 19:48:28.847 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e9af998]
+2019-03-27 19:48:28.847 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e9af998]
+2019-03-27 19:48:28.952 [http-nio-8091-exec-1] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2019-03-27 19:48:29.442 [http-nio-8091-exec-1] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
+[THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Thymeleaf version: 3.0.9.RELEASE (built 2017-11-05T00:10:15+0000)
+[THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template resolvers:
+[THYMELEAF]     * org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers:
+[THYMELEAF]     * org.thymeleaf.spring5.messageresolver.SpringMessageResolver
+[THYMELEAF] * Link builders:
+[THYMELEAF]     * org.thymeleaf.linkbuilder.StandardLinkBuilder
+[THYMELEAF] * Dialect [1 of 3]: SpringStandard (org.thymeleaf.spring5.dialect.SpringStandardDialect)
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF]     * Processors for Template Mode: HTML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:include,data-th-include}] [100]: org.thymeleaf.standard.processor.StandardIncludeTagProcessor
+[THYMELEAF]             * [* {th:insert,data-th-insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace,data-th-replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:substituteby,data-th-substituteby}] [100]: org.thymeleaf.standard.processor.StandardSubstituteByTagProcessor
+[THYMELEAF]             * [* {th:each,data-th-each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch,data-th-switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case,data-th-case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if,data-th-if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless,data-th-unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object,data-th-object}] [500]: org.thymeleaf.spring5.processor.SpringObjectTagProcessor
+[THYMELEAF]             * [* {th:with,data-th-with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:attr,data-th-attr}] [700]: org.thymeleaf.standard.processor.StandardAttrTagProcessor
+[THYMELEAF]             * [* {th:attrprepend,data-th-attrprepend}] [800]: org.thymeleaf.standard.processor.StandardAttrprependTagProcessor
+[THYMELEAF]             * [* {th:attrappend,data-th-attrappend}] [900]: org.thymeleaf.standard.processor.StandardAttrappendTagProcessor
+[THYMELEAF]             * [* {th:method,data-th-method}] [990]: org.thymeleaf.spring5.processor.SpringMethodTagProcessor
+[THYMELEAF]             * [* {th:alt-title,data-th-alt-title}] [990]: org.thymeleaf.standard.processor.StandardAltTitleTagProcessor
+[THYMELEAF]             * [* {th:lang-xmllang,data-th-lang-xmllang}] [990]: org.thymeleaf.standard.processor.StandardLangXmlLangTagProcessor
+[THYMELEAF]             * [* {th:action,data-th-action}] [1000]: org.thymeleaf.spring5.processor.SpringActionTagProcessor
+[THYMELEAF]             * [* {th:href,data-th-href}] [1000]: org.thymeleaf.spring5.processor.SpringHrefTagProcessor
+[THYMELEAF]             * [* {th:src,data-th-src}] [1000]: org.thymeleaf.spring5.processor.SpringSrcTagProcessor
+[THYMELEAF]             * [* {th:autofocus,data-th-autofocus}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:disabled,data-th-disabled}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:hidden,data-th-hidden}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:controls,data-th-controls}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:reversed,data-th-reversed}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:declare,data-th-declare}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:open,data-th-open}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:novalidate,data-th-novalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:autoplay,data-th-autoplay}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:defer,data-th-defer}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:required,data-th-required}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:checked,data-th-checked}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:ismap,data-th-ismap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:selected,data-th-selected}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:loop,data-th-loop}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:seamless,data-th-seamless}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:formnovalidate,data-th-formnovalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:scoped,data-th-scoped}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:readonly,data-th-readonly}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:nowrap,data-th-nowrap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:multiple,data-th-multiple}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:async,data-th-async}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:pubdate,data-th-pubdate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:default,data-th-default}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:onbeforeprint,data-th-onbeforeprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadeddata,data-th-onloadeddata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragenter,data-th-ondragenter}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onshow,data-th-onshow}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeked,data-th-onseeked}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onwaiting,data-th-onwaiting}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragover,data-th-ondragover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninput,data-th-oninput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondblclick,data-th-ondblclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onselect,data-th-onselect}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onabort,data-th-onabort}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplaying,data-th-onplaying}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragend,data-th-ondragend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onended,data-th-onended}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ononline,data-th-ononline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onratechange,data-th-onratechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpause,data-th-onpause}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onafterprint,data-th-onafterprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpopstate,data-th-onpopstate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onundo,data-th-onundo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeking,data-th-onseeking}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstorage,data-th-onstorage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeydown,data-th-onkeydown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onformchange,data-th-onformchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadedmetadata,data-th-onloadedmetadata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondrop,data-th-ondrop}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragleave,data-th-ondragleave}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onload,data-th-onload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onvolumechange,data-th-onvolumechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onhashchange,data-th-onhashchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onforminput,data-th-onforminput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onscroll,data-th-onscroll}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onchange,data-th-onchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousemove,data-th-onmousemove}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondurationchange,data-th-ondurationchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseout,data-th-onmouseout}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsuspend,data-th-onsuspend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onunload,data-th-onunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onclick,data-th-onclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplaythrough,data-th-oncanplaythrough}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsubmit,data-th-onsubmit}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onresize,data-th-onresize}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onoffline,data-th-onoffline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseup,data-th-onmouseup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragstart,data-th-ondragstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onredo,data-th-onredo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousewheel,data-th-onmousewheel}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ontimeupdate,data-th-ontimeupdate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncontextmenu,data-th-oncontextmenu}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onemptied,data-th-onemptied}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreadystatechange,data-th-onreadystatechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplay,data-th-oncanplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondrag,data-th-ondrag}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadstart,data-th-onloadstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onbeforeunload,data-th-onbeforeunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onerror,data-th-onerror}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeyup,data-th-onkeyup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onblur,data-th-onblur}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeypress,data-th-onkeypress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseover,data-th-onmouseover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onprogress,data-th-onprogress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onfocus,data-th-onfocus}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreset,data-th-onreset}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninvalid,data-th-oninvalid}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmessage,data-th-onmessage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstalled,data-th-onstalled}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousedown,data-th-onmousedown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplay,data-th-onplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:inline,data-th-inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineHTMLTagProcessor
+[THYMELEAF]             * [* {th:name,data-th-name}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:type,data-th-type}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rowspan,data-th-rowspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:wrap,data-th-wrap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:vspace,data-th-vspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:kind,data-th-kind}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cols,data-th-cols}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:maxlength,data-th-maxlength}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:target,data-th-target}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rev,data-th-rev}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:valuetype,data-th-valuetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accesskey,data-th-accesskey}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginwidth,data-th-marginwidth}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:compact,data-th-compact}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:border,data-th-border}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:alt,data-th-alt}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginheight,data-th-marginheight}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:preload,data-th-preload}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:draggable,data-th-draggable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contenteditable,data-th-contenteditable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:charset,data-th-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:pattern,data-th-pattern}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:low,data-th-low}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scrolling,data-th-scrolling}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:optimum,data-th-optimum}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frameborder,data-th-frameborder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept,data-th-accept}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frame,data-th-frame}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:bgcolor,data-th-bgcolor}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:manifest,data-th-manifest}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:placeholder,data-th-placeholder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:summary,data-th-summary}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:form,data-th-form}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:autocomplete,data-th-autocomplete}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:srclang,data-th-srclang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rel,data-th-rel}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scope,data-th-scope}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept-charset,data-th-accept-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:headers,data-th-headers}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:usemap,data-th-usemap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:height,data-th-height}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formtarget,data-th-formtarget}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:media,data-th-media}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formenctype,data-th-formenctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:datetime,data-th-datetime}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hspace,data-th-hspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formmethod,data-th-formmethod}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rules,data-th-rules}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codetype,data-th-codetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellpadding,data-th-cellpadding}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:for,data-th-for}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cite,data-th-cite}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:min,data-th-min}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formaction,data-th-formaction}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:max,data-th-max}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:style,data-th-style}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:spellcheck,data-th-spellcheck}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:radiogroup,data-th-radiogroup}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:http-equiv,data-th-http-equiv}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:challenge,data-th-challenge}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:list,data-th-list}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:class,data-th-class}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:icon,data-th-icon}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellspacing,data-th-cellspacing}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:start,data-th-start}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:lang,data-th-lang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codebase,data-th-codebase}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:enctype,data-th-enctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scheme,data-th-scheme}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:data,data-th-data}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:align,data-th-align}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:tabindex,data-th-tabindex}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:background,data-th-background}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:title,data-th-title}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:width,data-th-width}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dir,data-th-dir}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:abbr,data-th-abbr}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:standby,data-th-standby}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:longdesc,data-th-longdesc}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:archive,data-th-archive}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:keytype,data-th-keytype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:step,data-th-step}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:label,data-th-label}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:span,data-th-span}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hreflang,data-th-hreflang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:id,data-th-id}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sizes,data-th-sizes}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sandbox,data-th-sandbox}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:size,data-th-size}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:axis,data-th-axis}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:content,data-th-content}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dropzone,data-th-dropzone}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:colspan,data-th-colspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:audio,data-th-audio}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:high,data-th-high}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rows,data-th-rows}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:poster,data-th-poster}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:classid,data-th-classid}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contextmenu,data-th-contextmenu}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:xmlbase,data-th-xmlbase}] [1000]: org.thymeleaf.standard.processor.StandardXmlBaseTagProcessor
+[THYMELEAF]             * [* {th:xmllang,data-th-xmllang}] [1000]: org.thymeleaf.standard.processor.StandardXmlLangTagProcessor
+[THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {th:xmlspace,data-th-xmlspace}] [1000]: org.thymeleaf.standard.processor.StandardXmlSpaceTagProcessor
+[THYMELEAF]             * [{option} *] [1005]: org.thymeleaf.spring5.processor.SpringOptionInSelectFieldTagProcessor
+[THYMELEAF]             * [* {th:value,data-th-value}] [1010]: org.thymeleaf.spring5.processor.SpringValueTagProcessor
+[THYMELEAF]             * [* {th:classappend,data-th-classappend}] [1100]: org.thymeleaf.standard.processor.StandardClassappendTagProcessor
+[THYMELEAF]             * [* {th:styleappend,data-th-styleappend}] [1100]: org.thymeleaf.standard.processor.StandardStyleappendTagProcessor
+[THYMELEAF]             * [* {th:errors,data-th-errors}] [1200]: org.thymeleaf.spring5.processor.SpringErrorsTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1200]: org.thymeleaf.spring5.processor.SpringInputCheckboxFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1200]: org.thymeleaf.spring5.processor.SpringInputFileFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1200]: org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1200]: org.thymeleaf.spring5.processor.SpringInputPasswordFieldTagProcessor
+[THYMELEAF]             * [{input} {th:field,data-th-field}] [1200]: org.thymeleaf.spring5.processor.SpringInputRadioFieldTagProcessor
+[THYMELEAF]             * [{option} {th:field,data-th-field}] [1200]: org.thymeleaf.spring5.processor.SpringOptionFieldTagProcessor
+[THYMELEAF]             * [{select} {th:field,data-th-field}] [1200]: org.thymeleaf.spring5.processor.SpringSelectFieldTagProcessor
+[THYMELEAF]             * [{textarea} {th:field,data-th-field}] [1200]: org.thymeleaf.spring5.processor.SpringTextareaFieldTagProcessor
+[THYMELEAF]             * [* {th:uerrors,data-th-uerrors}] [1200]: org.thymeleaf.spring5.processor.SpringUErrorsTagProcessor
+[THYMELEAF]             * [* {th:text,data-th-text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext,data-th-utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:errorclass,data-th-errorclass}] [1500]: org.thymeleaf.spring5.processor.SpringErrorClassTagProcessor
+[THYMELEAF]             * [* {th:fragment,data-th-fragment}] [1500]: org.thymeleaf.standard.processor.StandardFragmentTagProcessor
+[THYMELEAF]             * [* {th:assert,data-th-assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove,data-th-remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* {th:ref,data-th-ref}] [10000]: org.thymeleaf.standard.processor.StandardRefAttributeTagProcessor
+[THYMELEAF]             * [{th:block,th-block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* th:*] [2147483647]: org.thymeleaf.standard.processor.StandardDefaultAttributesTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]         * DOCTYPE Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardTranslationDocTypeProcessor
+[THYMELEAF]         * CDATA Section Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCDATASectionProcessor
+[THYMELEAF]         * Comment Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCommentProcessor
+[THYMELEAF]             * [1100]: org.thymeleaf.standard.processor.StandardConditionalCommentProcessor
+[THYMELEAF]     * Processors for Template Mode: XML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:include}] [100]: org.thymeleaf.standard.processor.StandardIncludeTagProcessor
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:substituteby}] [100]: org.thymeleaf.standard.processor.StandardSubstituteByTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:attr}] [700]: org.thymeleaf.standard.processor.StandardAttrTagProcessor
+[THYMELEAF]             * [* {th:attrprepend}] [800]: org.thymeleaf.standard.processor.StandardAttrprependTagProcessor
+[THYMELEAF]             * [* {th:attrappend}] [900]: org.thymeleaf.standard.processor.StandardAttrappendTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineXMLTagProcessor
+[THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:fragment}] [1500]: org.thymeleaf.standard.processor.StandardFragmentTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* {th:ref}] [10000]: org.thymeleaf.standard.processor.StandardRefAttributeTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* th:*] [2147483647]: org.thymeleaf.standard.processor.StandardDefaultAttributesTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]         * CDATA Section Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCDATASectionProcessor
+[THYMELEAF]         * Comment Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCommentProcessor
+[THYMELEAF]     * Processors for Template Mode: TEXT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Processors for Template Mode: JAVASCRIPT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Processors for Template Mode: CSS
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: org.thymeleaf.standard.processor.StandardEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: org.thymeleaf.standard.processor.StandardWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Expression Objects:
+[THYMELEAF]         * #ctx
+[THYMELEAF]         * #root
+[THYMELEAF]         * #vars
+[THYMELEAF]         * #object
+[THYMELEAF]         * #locale
+[THYMELEAF]         * #request
+[THYMELEAF]         * #response
+[THYMELEAF]         * #session
+[THYMELEAF]         * #servletContext
+[THYMELEAF]         * #conversions
+[THYMELEAF]         * #uris
+[THYMELEAF]         * #calendars
+[THYMELEAF]         * #dates
+[THYMELEAF]         * #bools
+[THYMELEAF]         * #numbers
+[THYMELEAF]         * #objects
+[THYMELEAF]         * #strings
+[THYMELEAF]         * #arrays
+[THYMELEAF]         * #lists
+[THYMELEAF]         * #sets
+[THYMELEAF]         * #maps
+[THYMELEAF]         * #aggregates
+[THYMELEAF]         * #messages
+[THYMELEAF]         * #ids
+[THYMELEAF]         * #execInfo
+[THYMELEAF]         * #httpServletRequest
+[THYMELEAF]         * #httpSession
+[THYMELEAF]         * #fields
+[THYMELEAF]         * #themes
+[THYMELEAF]         * #mvc
+[THYMELEAF]         * #requestdatavalues
+[THYMELEAF]     * Execution Attributes:
+[THYMELEAF]         * "StandardExpressionParser": Standard Expression Parser
+[THYMELEAF]         * "StandardJavaScriptSerializer": org.thymeleaf.standard.serializer.StandardJavaScriptSerializer@1743f9e3
+[THYMELEAF]         * "StandardCSSSerializer": org.thymeleaf.standard.serializer.StandardCSSSerializer@3d31a7e1
+[THYMELEAF]         * "EnableSpringELCompiler": false
+[THYMELEAF]         * "StandardVariableExpressionEvaluator": SpringEL
+[THYMELEAF]         * "StandardConversionService": org.thymeleaf.spring5.expression.SpringStandardConversionService@163fcabe
+[THYMELEAF] * Dialect [2 of 3]: Sys Dialect (com.songhaozhi.mayday.config.thymeleaf.dialect.ThSysDialect)
+[THYMELEAF]     * Prefix: "thSys"
+[THYMELEAF]     * Processors for Template Mode: HTML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {xmlns:thsys}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {thsys:text,data-thsys-text}] [10000]: com.songhaozhi.mayday.config.thymeleaf.tag.ThSysTagProcessor
+[THYMELEAF] * Dialect [3 of 3]: java8time (org.thymeleaf.extras.java8time.dialect.Java8TimeDialect)
+[THYMELEAF]     * Expression Objects:
+[THYMELEAF]         * #temporals
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2019-03-27 19:48:29.450 [http-nio-8091-exec-1] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2019-03-27 19:48:56.195 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:48:56.196 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b6035]
+2019-03-27 19:48:56.197 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:48:56.197 [http-nio-8091-exec-5] DEBUG c.s.m.m.c.ArticleMapperCustom.findByArticleUrl - ==>  Preparing: SELECT ma.*, GROUP_CONCAT(distinct mc.category_name ) AS categorysName, GROUP_CONCAT(distinct mc.category_url ) AS categorysUrl, GROUP_CONCAT(distinct mt.tag_name ) AS tagsName, GROUP_CONCAT(distinct mt.tag_url ) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE article_url=? GROUP BY ma.id 
+2019-03-27 19:48:56.197 [http-nio-8091-exec-5] DEBUG c.s.m.m.c.ArticleMapperCustom.findByArticleUrl - ==> Parameters: hello-mayday(String)
+2019-03-27 19:48:56.205 [http-nio-8091-exec-5] DEBUG c.s.m.m.c.ArticleMapperCustom.findByArticleUrl - <==      Total: 1
+2019-03-27 19:48:56.206 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b6035]
+2019-03-27 19:48:56.207 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b6035]
+2019-03-27 19:48:56.207 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b6035]
+2019-03-27 19:48:56.208 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b6035]
+2019-03-27 19:50:49.122 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:49.124 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b801586]
+2019-03-27 19:50:49.124 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:49.126 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-27 19:50:49.127 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-27 19:50:49.133 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-27 19:50:49.134 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b801586]
+2019-03-27 19:50:49.136 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b801586]
+2019-03-27 19:50:49.136 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b801586]
+2019-03-27 19:50:49.136 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b801586]
+2019-03-27 19:50:49.147 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:49.147 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e311bf9]
+2019-03-27 19:50:49.147 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:49.148 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==>  Preparing: select * from mayday_user where user_name=? and user_pwd=? 
+2019-03-27 19:50:49.148 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - ==> Parameters: TWLY_H(String), f9a344f7000f8f137fe3ba7338ce45ac(String)
+2019-03-27 19:50:49.150 [http-nio-8091-exec-5] DEBUG c.s.m.m.custom.UserMapperCustom.getByNameAndPwd - <==      Total: 1
+2019-03-27 19:50:49.150 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e311bf9]
+2019-03-27 19:50:49.150 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e311bf9]
+2019-03-27 19:50:49.150 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e311bf9]
+2019-03-27 19:50:49.150 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e311bf9]
+2019-03-27 19:50:49.152 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:49.152 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@161cfde2]
+2019-03-27 19:50:49.154 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:49.156 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_last_time = ? where user_id = ? 
+2019-03-27 19:50:49.158 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: 2019-03-27 19:50:49.152(Timestamp), 9(Integer)
+2019-03-27 19:50:49.172 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-27 19:50:49.172 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@161cfde2]
+2019-03-27 19:50:49.173 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@161cfde2]
+2019-03-27 19:50:49.173 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@161cfde2]
+2019-03-27 19:50:49.173 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@161cfde2]
+2019-03-27 19:50:49.188 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:49.188 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c058d09]
+2019-03-27 19:50:49.188 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:49.189 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==>  Preparing: update mayday_user SET login_enable = ?, login_error = ?, login_last_time = ? where user_id = ? 
+2019-03-27 19:50:49.189 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - ==> Parameters: false(String), 0(Integer), 2019-03-27 19:50:49.188(Timestamp), 9(Integer)
+2019-03-27 19:50:49.193 [http-nio-8091-exec-5] DEBUG c.s.m.m.g.UserMapper.updateByPrimaryKeySelective - <==    Updates: 1
+2019-03-27 19:50:49.193 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c058d09]
+2019-03-27 19:50:49.193 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c058d09]
+2019-03-27 19:50:49.193 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c058d09]
+2019-03-27 19:50:49.194 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c058d09]
+2019-03-27 19:50:49.211 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:49.211 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2470723d]
+2019-03-27 19:50:49.211 [http-nio-8091-exec-5] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:49.211 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==>  Preparing: insert into mayday_logs (log_id, log_title, log_content, log_ip, log_date) values (?, ?, ?, ?, ?) 
+2019-03-27 19:50:49.212 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - ==> Parameters: null, 登录后台(String), 登录成功(String), 0:0:0:0:0:0:0:1(String), 2019-03-27 19:50:49.207(Timestamp)
+2019-03-27 19:50:49.225 [http-nio-8091-exec-5] DEBUG c.s.mayday.mapper.generator.LogMapper.insert - <==    Updates: 1
+2019-03-27 19:50:49.225 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2470723d]
+2019-03-27 19:50:49.225 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2470723d]
+2019-03-27 19:50:49.225 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2470723d]
+2019-03-27 19:50:49.226 [http-nio-8091-exec-5] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2470723d]
+2019-03-27 19:50:50.779 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:50.781 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31ed10b3]
+2019-03-27 19:50:50.781 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:50.782 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==>  Preparing: SELECT COUNT(*) FROM mayday_article WHERE 1=1 and article_post=? 
+2019-03-27 19:50:50.783 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==> Parameters: post(String)
+2019-03-27 19:50:50.785 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - <==      Total: 1
+2019-03-27 19:50:50.786 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31ed10b3]
+2019-03-27 19:50:50.786 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31ed10b3]
+2019-03-27 19:50:50.786 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31ed10b3]
+2019-03-27 19:50:50.786 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31ed10b3]
+2019-03-27 19:50:50.794 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:50.794 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@653b319e]
+2019-03-27 19:50:50.795 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:50.795 [http-nio-8091-exec-8] DEBUG c.s.m.mapper.generator.LinkMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, link_id, link_name, link_url, link_logo, link_describe from mayday_link 
+2019-03-27 19:50:50.795 [http-nio-8091-exec-8] DEBUG c.s.m.mapper.generator.LinkMapper.selectByExample - ==> Parameters: 
+2019-03-27 19:50:50.799 [http-nio-8091-exec-8] DEBUG c.s.m.mapper.generator.LinkMapper.selectByExample - <==      Total: 0
+2019-03-27 19:50:50.799 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@653b319e]
+2019-03-27 19:50:50.799 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@653b319e]
+2019-03-27 19:50:50.800 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@653b319e]
+2019-03-27 19:50:50.800 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@653b319e]
+2019-03-27 19:50:50.807 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:50.807 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44fefc8]
+2019-03-27 19:50:50.808 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:50.808 [http-nio-8091-exec-8] DEBUG c.s.m.m.generator.AttachmentMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, id, picture_name, picture_path, picture_small_path, picture_type, picture_create_date, picture_size, picture_suffix, picture_wh from mayday_attachment 
+2019-03-27 19:50:50.808 [http-nio-8091-exec-8] DEBUG c.s.m.m.generator.AttachmentMapper.selectByExample - ==> Parameters: 
+2019-03-27 19:50:50.818 [http-nio-8091-exec-8] DEBUG c.s.m.m.generator.AttachmentMapper.selectByExample - <==      Total: 0
+2019-03-27 19:50:50.819 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44fefc8]
+2019-03-27 19:50:50.819 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44fefc8]
+2019-03-27 19:50:50.819 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44fefc8]
+2019-03-27 19:50:50.819 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44fefc8]
+2019-03-27 19:50:50.933 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:50.934 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@567516b3]
+2019-03-27 19:50:50.934 [http-nio-8091-exec-8] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.5
+2019-03-27 19:50:50.936 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:50.937 [http-nio-8091-exec-8] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - ==>  Preparing: SELECT count(0) FROM (SELECT ma.*, GROUP_CONCAT(DISTINCT mc.category_name) AS categorysName, GROUP_CONCAT(DISTINCT mc.category_url) AS categorysUrl, GROUP_CONCAT(DISTINCT mt.tag_name) AS tagsName, GROUP_CONCAT(DISTINCT mt.tag_url) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE 1 = 1 AND article_post = ? GROUP BY ma.id) table_count 
+2019-03-27 19:50:50.937 [http-nio-8091-exec-8] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - ==> Parameters: post(String)
+2019-03-27 19:50:50.942 [http-nio-8091-exec-8] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - <==      Total: 1
+2019-03-27 19:50:50.943 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - ==>  Preparing: SELECT ma.*, GROUP_CONCAT(distinct mc.category_name ) AS categorysName, GROUP_CONCAT(distinct mc.category_url ) AS categorysUrl, GROUP_CONCAT(distinct mt.tag_name ) AS tagsName, GROUP_CONCAT(distinct mt.tag_url ) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE 1=1 and article_post=? GROUP BY ma.id ORDER BY article_updatetime DESC,article_newstime DESC LIMIT ? 
+2019-03-27 19:50:50.944 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - ==> Parameters: post(String), 5(Integer)
+2019-03-27 19:50:50.947 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - <==      Total: 1
+2019-03-27 19:50:50.947 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@567516b3]
+2019-03-27 19:50:50.947 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@567516b3]
+2019-03-27 19:50:50.948 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@567516b3]
+2019-03-27 19:50:50.948 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@567516b3]
+2019-03-27 19:50:50.953 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:50.953 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30d3f002]
+2019-03-27 19:50:50.954 [http-nio-8091-exec-8] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.3333333333333333
+2019-03-27 19:50:50.961 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:50.961 [http-nio-8091-exec-8] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - ==>  Preparing: SELECT count(0) FROM mayday_logs 
+2019-03-27 19:50:50.962 [http-nio-8091-exec-8] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - ==> Parameters: 
+2019-03-27 19:50:50.965 [http-nio-8091-exec-8] DEBUG c.s.m.m.generator.LogMapper.selectByExample_COUNT - <==      Total: 1
+2019-03-27 19:50:50.966 [http-nio-8091-exec-8] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, log_id, log_title, log_content, log_ip, log_date from mayday_logs order by log_id DESC LIMIT ? 
+2019-03-27 19:50:50.966 [http-nio-8091-exec-8] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - ==> Parameters: 5(Integer)
+2019-03-27 19:50:50.969 [http-nio-8091-exec-8] DEBUG c.s.m.mapper.generator.LogMapper.selectByExample - <==      Total: 5
+2019-03-27 19:50:50.969 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30d3f002]
+2019-03-27 19:50:50.969 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30d3f002]
+2019-03-27 19:50:50.969 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30d3f002]
+2019-03-27 19:50:50.970 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@30d3f002]
+2019-03-27 19:50:59.081 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:59.083 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@510a1591]
+2019-03-27 19:50:59.085 [http-nio-8091-exec-8] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.5
+2019-03-27 19:50:59.088 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:59.088 [http-nio-8091-exec-8] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - ==>  Preparing: SELECT count(0) FROM (SELECT ma.*, GROUP_CONCAT(DISTINCT mc.category_name) AS categorysName, GROUP_CONCAT(DISTINCT mc.category_url) AS categorysUrl, GROUP_CONCAT(DISTINCT mt.tag_name) AS tagsName, GROUP_CONCAT(DISTINCT mt.tag_url) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE 1 = 1 AND article_status = ? AND article_post = ? GROUP BY ma.id) table_count 
+2019-03-27 19:50:59.089 [http-nio-8091-exec-8] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - ==> Parameters: 0(Integer), post(String)
+2019-03-27 19:50:59.093 [http-nio-8091-exec-8] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - <==      Total: 1
+2019-03-27 19:50:59.096 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - ==>  Preparing: SELECT ma.*, GROUP_CONCAT(distinct mc.category_name ) AS categorysName, GROUP_CONCAT(distinct mc.category_url ) AS categorysUrl, GROUP_CONCAT(distinct mt.tag_name ) AS tagsName, GROUP_CONCAT(distinct mt.tag_url ) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE 1=1 and article_status=? and article_post=? GROUP BY ma.id ORDER BY article_updatetime DESC,article_newstime DESC LIMIT ? 
+2019-03-27 19:50:59.097 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - ==> Parameters: 0(Integer), post(String), 10(Integer)
+2019-03-27 19:50:59.105 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.findPageArticle - <==      Total: 1
+2019-03-27 19:50:59.106 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@510a1591]
+2019-03-27 19:50:59.107 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@510a1591]
+2019-03-27 19:50:59.107 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@510a1591]
+2019-03-27 19:50:59.107 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@510a1591]
+2019-03-27 19:50:59.110 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:59.110 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c7627b]
+2019-03-27 19:50:59.110 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:59.110 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==>  Preparing: SELECT COUNT(*) FROM mayday_article WHERE 1=1 and article_status=? and article_post=? 
+2019-03-27 19:50:59.110 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==> Parameters: 0(Integer), post(String)
+2019-03-27 19:50:59.112 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - <==      Total: 1
+2019-03-27 19:50:59.113 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c7627b]
+2019-03-27 19:50:59.114 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c7627b]
+2019-03-27 19:50:59.114 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c7627b]
+2019-03-27 19:50:59.115 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c7627b]
+2019-03-27 19:50:59.118 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:59.119 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ff26ab1]
+2019-03-27 19:50:59.119 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:59.120 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==>  Preparing: SELECT COUNT(*) FROM mayday_article WHERE 1=1 and article_status=? and article_post=? 
+2019-03-27 19:50:59.121 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==> Parameters: 1(Integer), post(String)
+2019-03-27 19:50:59.121 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - <==      Total: 1
+2019-03-27 19:50:59.121 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ff26ab1]
+2019-03-27 19:50:59.121 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ff26ab1]
+2019-03-27 19:50:59.122 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ff26ab1]
+2019-03-27 19:50:59.122 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ff26ab1]
+2019-03-27 19:50:59.123 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:50:59.123 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e21b99]
+2019-03-27 19:50:59.124 [http-nio-8091-exec-8] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:50:59.124 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==>  Preparing: SELECT COUNT(*) FROM mayday_article WHERE 1=1 and article_status=? and article_post=? 
+2019-03-27 19:50:59.125 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==> Parameters: 2(Integer), post(String)
+2019-03-27 19:50:59.125 [http-nio-8091-exec-8] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - <==      Total: 1
+2019-03-27 19:50:59.126 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e21b99]
+2019-03-27 19:50:59.126 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e21b99]
+2019-03-27 19:50:59.127 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e21b99]
+2019-03-27 19:50:59.127 [http-nio-8091-exec-8] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e21b99]
+2019-03-27 19:51:00.801 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:51:00.802 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c84d32a]
+2019-03-27 19:51:00.803 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:51:00.803 [http-nio-8091-exec-1] DEBUG c.s.m.m.generator.CategoryMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, category_id, category_name, category_url, category_describe from mayday_category 
+2019-03-27 19:51:00.803 [http-nio-8091-exec-1] DEBUG c.s.m.m.generator.CategoryMapper.selectByExample - ==> Parameters: 
+2019-03-27 19:51:00.804 [http-nio-8091-exec-1] DEBUG c.s.m.m.generator.CategoryMapper.selectByExample - <==      Total: 0
+2019-03-27 19:51:00.804 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c84d32a]
+2019-03-27 19:51:00.804 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c84d32a]
+2019-03-27 19:51:00.804 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c84d32a]
+2019-03-27 19:51:00.804 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c84d32a]
+2019-03-27 19:51:00.812 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:51:00.812 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fba4614]
+2019-03-27 19:51:00.813 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:51:00.813 [http-nio-8091-exec-1] DEBUG c.s.m.mapper.generator.TagMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, tag_id, tag_name, tag_url from mayday_tag 
+2019-03-27 19:51:00.815 [http-nio-8091-exec-1] DEBUG c.s.m.mapper.generator.TagMapper.selectByExample - ==> Parameters: 
+2019-03-27 19:51:00.817 [http-nio-8091-exec-1] DEBUG c.s.m.mapper.generator.TagMapper.selectByExample - <==      Total: 0
+2019-03-27 19:51:00.817 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fba4614]
+2019-03-27 19:51:00.818 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fba4614]
+2019-03-27 19:51:00.818 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fba4614]
+2019-03-27 19:51:00.818 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3fba4614]
+2019-03-27 19:51:01.271 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:51:01.272 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15c5265b]
+2019-03-27 19:51:01.272 [http-nio-8091-exec-7] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.4
+2019-03-27 19:51:01.274 [http-nio-8091-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:51:01.274 [http-nio-8091-exec-7] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - ==>  Preparing: SELECT count(0) FROM mayday_attachment 
+2019-03-27 19:51:01.274 [http-nio-8091-exec-7] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - ==> Parameters: 
+2019-03-27 19:51:01.275 [http-nio-8091-exec-7] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - <==      Total: 1
+2019-03-27 19:51:01.276 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15c5265b]
+2019-03-27 19:51:01.276 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15c5265b]
+2019-03-27 19:51:01.276 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15c5265b]
+2019-03-27 19:51:01.277 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15c5265b]
+2019-03-27 19:51:03.231 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:51:03.233 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7356d41e]
+2019-03-27 19:51:03.234 [http-nio-8091-exec-1] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.3333333333333333
+2019-03-27 19:51:03.235 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:51:03.236 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.ThemeMapper.selectByExample_COUNT - ==>  Preparing: SELECT count(0) FROM mayday_theme 
+2019-03-27 19:51:03.236 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.ThemeMapper.selectByExample_COUNT - ==> Parameters: 
+2019-03-27 19:51:03.237 [http-nio-8091-exec-1] DEBUG c.s.m.m.g.ThemeMapper.selectByExample_COUNT - <==      Total: 1
+2019-03-27 19:51:03.239 [http-nio-8091-exec-1] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, id, theme_name, theme_describe, theme_img, theme_status, create_time from mayday_theme order by id desc LIMIT ? 
+2019-03-27 19:51:03.240 [http-nio-8091-exec-1] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - ==> Parameters: 10(Integer)
+2019-03-27 19:51:03.241 [http-nio-8091-exec-1] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - <==      Total: 1
+2019-03-27 19:51:03.241 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7356d41e]
+2019-03-27 19:51:03.241 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7356d41e]
+2019-03-27 19:51:03.242 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7356d41e]
+2019-03-27 19:51:03.242 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7356d41e]
+2019-03-27 19:51:06.624 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 19:51:06.626 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fb012b0]
+2019-03-27 19:51:06.628 [http-nio-8091-exec-2] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 19:51:06.628 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==>  Preparing: select * from mayday_user 
+2019-03-27 19:51:06.629 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - ==> Parameters: 
+2019-03-27 19:51:06.630 [http-nio-8091-exec-2] DEBUG c.s.mayday.mapper.custom.UserMapperCustom.findUser - <==      Total: 1
+2019-03-27 19:51:06.631 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fb012b0]
+2019-03-27 19:51:06.631 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fb012b0]
+2019-03-27 19:51:06.631 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fb012b0]
+2019-03-27 19:51:06.631 [http-nio-8091-exec-2] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fb012b0]
+2019-03-27 20:09:57.959 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 20:09:57.972 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22ab9c02]
+2019-03-27 20:09:57.987 [http-nio-8091-exec-1] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.42857142857142855
+2019-03-27 20:09:57.999 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 20:09:58.002 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - ==>  Preparing: SELECT count(0) FROM (SELECT ma.*, GROUP_CONCAT(DISTINCT mc.category_name) AS categorysName, GROUP_CONCAT(DISTINCT mc.category_url) AS categorysUrl, GROUP_CONCAT(DISTINCT mt.tag_name) AS tagsName, GROUP_CONCAT(DISTINCT mt.tag_url) AS tagsUrl FROM mayday_article ma LEFT JOIN mayday_article_category mac ON ma.id = mac.article_id LEFT JOIN mayday_category mc ON mc.category_id = mac.category_id LEFT JOIN mayday_article_tag mat ON ma.id = mat.article_id LEFT JOIN mayday_tag mt ON mt.tag_id = mat.tag_id WHERE 1 = 1 AND article_status = ? AND article_post = ? GROUP BY ma.id) table_count 
+2019-03-27 20:09:58.011 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - ==> Parameters: 0(Integer), page(String)
+2019-03-27 20:09:58.035 [http-nio-8091-exec-1] DEBUG c.s.m.m.c.A.findPageArticle_COUNT - <==      Total: 1
+2019-03-27 20:09:58.039 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22ab9c02]
+2019-03-27 20:09:58.041 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22ab9c02]
+2019-03-27 20:09:58.043 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22ab9c02]
+2019-03-27 20:09:58.044 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22ab9c02]
+2019-03-27 20:09:58.053 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 20:09:58.053 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2057f225]
+2019-03-27 20:09:58.054 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 20:09:58.054 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==>  Preparing: SELECT COUNT(*) FROM mayday_article WHERE 1=1 and article_status=? and article_post=? 
+2019-03-27 20:09:58.055 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==> Parameters: 0(Integer), page(String)
+2019-03-27 20:09:58.056 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - <==      Total: 1
+2019-03-27 20:09:58.056 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2057f225]
+2019-03-27 20:09:58.056 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2057f225]
+2019-03-27 20:09:58.056 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2057f225]
+2019-03-27 20:09:58.056 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2057f225]
+2019-03-27 20:09:58.058 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 20:09:58.058 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785c0453]
+2019-03-27 20:09:58.059 [http-nio-8091-exec-1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 20:09:58.060 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==>  Preparing: SELECT COUNT(*) FROM mayday_article WHERE 1=1 and article_status=? and article_post=? 
+2019-03-27 20:09:58.060 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - ==> Parameters: 1(Integer), page(String)
+2019-03-27 20:09:58.061 [http-nio-8091-exec-1] DEBUG c.s.m.m.custom.ArticleMapperCustom.countByStatus - <==      Total: 1
+2019-03-27 20:09:58.061 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785c0453]
+2019-03-27 20:09:58.061 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785c0453]
+2019-03-27 20:09:58.061 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785c0453]
+2019-03-27 20:09:58.061 [http-nio-8091-exec-1] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@785c0453]
+2019-03-27 20:10:08.262 [http-nio-8091-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 20:10:08.265 [http-nio-8091-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3416ea]
+2019-03-27 20:10:08.268 [http-nio-8091-exec-10] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.5
+2019-03-27 20:10:08.273 [http-nio-8091-exec-10] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 20:10:08.273 [http-nio-8091-exec-10] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - ==>  Preparing: SELECT count(0) FROM mayday_attachment 
+2019-03-27 20:10:08.273 [http-nio-8091-exec-10] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - ==> Parameters: 
+2019-03-27 20:10:08.274 [http-nio-8091-exec-10] DEBUG c.s.m.m.g.AttachmentMapper.selectByExample_COUNT - <==      Total: 1
+2019-03-27 20:10:08.275 [http-nio-8091-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3416ea]
+2019-03-27 20:10:08.275 [http-nio-8091-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3416ea]
+2019-03-27 20:10:08.276 [http-nio-8091-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3416ea]
+2019-03-27 20:10:08.276 [http-nio-8091-exec-10] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3416ea]
+2019-03-27 20:10:11.534 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2019-03-27 20:10:11.536 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1836e661]
+2019-03-27 20:10:11.541 [http-nio-8091-exec-7] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.5555555555555556
+2019-03-27 20:10:11.542 [http-nio-8091-exec-7] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [com.mysql.jdbc.JDBC4Connection@539cfb1a] will be managed by Spring
+2019-03-27 20:10:11.542 [http-nio-8091-exec-7] DEBUG c.s.m.m.g.ThemeMapper.selectByExample_COUNT - ==>  Preparing: SELECT count(0) FROM mayday_theme 
+2019-03-27 20:10:11.543 [http-nio-8091-exec-7] DEBUG c.s.m.m.g.ThemeMapper.selectByExample_COUNT - ==> Parameters: 
+2019-03-27 20:10:11.546 [http-nio-8091-exec-7] DEBUG c.s.m.m.g.ThemeMapper.selectByExample_COUNT - <==      Total: 1
+2019-03-27 20:10:11.547 [http-nio-8091-exec-7] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, id, theme_name, theme_describe, theme_img, theme_status, create_time from mayday_theme order by id desc LIMIT ? 
+2019-03-27 20:10:11.547 [http-nio-8091-exec-7] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - ==> Parameters: 10(Integer)
+2019-03-27 20:10:11.555 [http-nio-8091-exec-7] DEBUG c.s.m.mapper.generator.ThemeMapper.selectByExample - <==      Total: 1
+2019-03-27 20:10:11.555 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1836e661]
+2019-03-27 20:10:11.555 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1836e661]
+2019-03-27 20:10:11.555 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1836e661]
+2019-03-27 20:10:11.556 [http-nio-8091-exec-7] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1836e661]
